@@ -9,5 +9,5 @@ with real output or tests, not just theory.
 | [indexes](indexes/) | How indexes make lookups and JOINs fast, when they're not used, and what they cost on writes |
 | [pagination](pagination/) | Why OFFSET gets slow on deep pages, and how keyset pagination stays fast |
 | [sql-injection](sql-injection/) | How a login can be bypassed with pasted-in input, and how `?` placeholders stop it |
-
+| [transactions](transactions/) | A money transfer that crashes halfway, and how a transaction stops money from disappearing |
 Run any demo: `python <folder>/<file>.py` (Python 3, SQLite built in, nothing to install).
