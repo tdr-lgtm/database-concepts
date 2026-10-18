@@ -10,4 +10,6 @@ with real output or tests, not just theory.
 | [pagination](pagination/) | Why OFFSET gets slow on deep pages, and how keyset pagination stays fast |
 | [sql-injection](sql-injection/) | How a login can be bypassed with pasted-in input, and how `?` placeholders stop it |
 | [transactions](transactions/) | A money transfer that crashes halfway, and how a transaction stops money from disappearing |
+| [race-conditions](race-conditions/) | Two users buy the last item at once, fixed with an atomic UPDATE or a lock |
+
 Run any demo: `python <folder>/<file>.py` (Python 3, SQLite built in, nothing to install).
